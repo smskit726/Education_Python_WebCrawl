@@ -38,7 +38,7 @@ while(True):
         for i, reply in enumerate(reply_list):
             review = reply.select('span#_filtered_ment_'+str(i))[0].text.strip()
             
-            방법2 (추천)
+            방법2
         for reply in reply_list:
             review = reply.select('span#_filtered_ment_{}'.format(cnt))[0].text.strip()
             
